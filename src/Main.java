@@ -21,7 +21,6 @@ public class Main {
                 for (int i = 0; i < allProducts.length; i++) {
                     allProducts[i] = 0;
                 }
-
             } else {
                 String[] line = inputString.split(" ");
                 int productNumber = Integer.parseInt(line[0]);
