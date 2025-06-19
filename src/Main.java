@@ -31,6 +31,9 @@ public class Main {
 
             System.out.println("Всего товаров в корзине: ");
             for (int i = 0; i < products.length; i++) {
+                if (allProducts[i] == 0){
+                    continue;
+                }
                 System.out.println(products[i] + " " + allProducts[i] + " штук," + " всего " + prices[i] * allProducts[i] + " рублей.");
             }
             System.out.println("Сумма корзины " + summ + " рублей.");
